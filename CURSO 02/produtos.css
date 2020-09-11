@@ -38,11 +38,17 @@ nav a {
 .lista-produtos li {
     display: inline-block;
     text-align: center;
-    width: 30%;
+    width: 25%;
+    height: 415px;
     vertical-align: top;
-    margin: 0 1.5%;
+    margin: 0 2%;
     padding: 30px 20px;
     box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    /* border: 2px solid #000000 */
+    border-radius: 20px;
 }
 
 .lista-produtos h2 {
