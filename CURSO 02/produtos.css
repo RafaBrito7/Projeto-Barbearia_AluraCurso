@@ -28,6 +28,11 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
 .lista-produtos {
     width: 100%;
     max-width: 1280px;
@@ -49,6 +54,18 @@ nav a {
     border-style: solid;
     /* border: 2px solid #000000 */
     border-radius: 20px;
+}
+
+.lista-produtos li:hover {
+    border-color: #C78C19;
+}
+
+.lista-produtos li:hover h2 {
+    font-size: 40px;
+}
+
+.lista-produtos li:active {
+    border-color: #088C19;
 }
 
 .lista-produtos h2 {
