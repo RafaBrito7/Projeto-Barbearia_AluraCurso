@@ -121,3 +121,21 @@ form label, form legend{
     margin: 20px 5px;
 }
 
+.button-enviar{
+    width: 30%;
+    padding: 15px 0;
+    background-color: orange;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.button-enviar:hover {
+    background-color: darkorange;
+    transform: scale(1.1);
+}
+
