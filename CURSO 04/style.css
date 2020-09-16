@@ -243,7 +243,14 @@ td,th {
 
 .imagem-beneficios {
     width: 60%;
-    display: inline-block;
+    opacity: 1;
+    transition: 500ms;
+    box-shadow: 10px 10px 20px 5px #000000;
+    /* box-shadow: eixo X - eixo Y - Intesidade da Sombra - Expansão da Sombra - Cor da Sombra */
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.3;
 }
 
 .img-utensilios {
