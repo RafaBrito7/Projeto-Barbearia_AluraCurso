@@ -261,6 +261,7 @@ td,th {
 
 .video {
     margin: 2em auto;
+    width: 660px;
     text-align: center;
 }
 
@@ -292,3 +293,29 @@ td,th {
             background: orange;
         }
 */
+
+@media screen and (max-width: 480px) {
+    .englobar-header, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    nav a {
+        font-size: 19px;
+    }
+
+    .titulo-principal {
+        font-size: 1.7em;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
+}
