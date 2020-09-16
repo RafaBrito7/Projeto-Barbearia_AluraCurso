@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="./reset.css/reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="englobar-header">
+            <h1>
+                <img src="./assets/img/logo.png" alt="LogoAlura">
+            </h1>
+            <nav>
+                <ul class="menu-list">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./produtos.html">Produtos</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!--Observar os tipos de Input para Mobile .. http://mobileinputtypes.com/ -->
+        <form>
+            <label for="input-nome">Nome e Sobrenome:</label>
+            <input type="text" id="input-nome" class="input-padrao" required placeholder="Seu nome e Sobrenome">
+
+            <label for="input-email">Email:</label>
+            <input type="email" id="input-email" class="input-padrao" required placeholder="email@dominio.com">
+
+            <label for="input-telefone">Telefone:</label>
+            <input type="tel" id="input-telefone" class="input-padrao" required placeholder="(xx) 9xxxx-xxxx">
+
+            <label for="textarea-mensagem">Mensagem:</label>
+            <textarea id="textarea-mensagem" cols="70" rows="10" class="input-padrao" required></textarea>
+
+            <fieldset class="radio-contato">
+                <legend>Como prefere que entremos em contato?</legend>
+                <label for="radio-email"> <input type="radio" name="contato" value="email" id="radio-email"
+                        checked>Email</label>
+
+                <label for="radio-telefone"><input type="radio" name="contato" value="email"
+                        id="radio-telefone">Telefone</label>
+
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="email"
+                        id="radio-whatsapp">Whatsapp</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Qual horário prefere ser atendido?</legend>
+                <select name="" id="">
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                </select>
+            </fieldset>
+
+            <label for=""><input type="checkbox" class="input-checkbox">Gostaria de receber nossas novidades por
+                email?</label>
+
+            <input type="submit" value="Enviar" class="button-enviar">
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Segunda</td>
+                    <td>08h - 20h</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td>08h - 20h</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>08h - 20h</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <img src="./assets/img/logo-branco.png" alt="Logo Alura em branco">
+        <p class="texto-footer">&copy; Copyright and Development by RafaBrito7 - Alura_Cursos</p>
+        <!--Usar Unicode para simbolos, utilizar padrão entity; https://unicode-table.com/pt/-->
+    </footer>
+</body>
+
+</html>
