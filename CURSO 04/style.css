@@ -256,3 +256,32 @@ td,th {
     margin: 2em auto;
     text-align: center;
 }
+
+/* 
+    Seletores Avançados no CSS
+    1) podemos selecionar os filhos diretos de <main>, para tanto, utilizaremos o sinal >,
+     e todo os outros parágrafos serão ignorados.
+        ex: 
+            main > p {
+                background: red; 
+            }
+
+    2)Selecionar o primeiro parágrafo que sucede uma imagem, neste caso 
+    estamos falando do primeiro irmão que vem depois de um elemento. Usamos o seletor +
+        ex:
+            img + p { 
+                background: blue;
+            }
+        
+    3)Para selecionar todos os parágrafos localizados depois de uma imagem usamos o seletor ~
+        ex:
+            img ~ p {
+                background: yellow
+            } 
+
+    4)excluir itens específicos. Se quisermos excluir todos os parágrafos 
+    que não compõe missao, escreveremos:
+        .principal p:not(#misssao) {
+            background: orange;
+        }
+*/
