@@ -1,3 +1,8 @@
+body{
+    /* Fontes Externas gratuitas para WEB no GoogleFonts*/
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background-color: #BBBBBB;
     padding: 20px;
@@ -188,4 +193,17 @@ td,th {
     width: 120px;
     float: left;
     margin: 0 20px 20px 0;
+}
+
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa p {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.video {
+    margin: 1em auto;
 }
